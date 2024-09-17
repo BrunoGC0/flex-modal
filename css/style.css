@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+
+body{
+    height: 100vh;
+    font-family: Roboto, sans-serif;
+    background: #aaa;
+    color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal{
+    background-color: #fff;
+    width: 480px;
+    border-radius: 10px;
+    box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+    display: flex;
+    gap: 16px;
+    padding: 16px;
+}
+
+.modal .icon{
+    color: royalblue;
+    font-size: 26px;
+    font-weight: 700;
+    background-color: lavender;
+    height: 42px;
+    width: 42px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+.modal .header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 10px;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+.modal .container .close-button{
+    color: #888;
+    background-color: #eee;
+    font-size: 16px;
+    font-weight: 700;
+    height: 24px;
+    width: 24px;
+    border-radius: 50%;
+    border: 1px solid #eee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    flex-shrink: 0;
+}
+
+.modal .text{
+    margin-bottom: 8px;
+}
+
+.modal button{
+    cursor: pointer;
+    padding: 8px 16px;
+    border-radius: 8px;
+}
+
+.modal .continue{
+    background-color: royalblue;
+    border: 1px solid royalblue;
+    color: #fff;
+}
+
+.modal .cancel{
+    background-color: #fff;
+    border: 1px solid #ddd;
+    color: royalblue;
+}
